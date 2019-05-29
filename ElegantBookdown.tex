@@ -308,62 +308,6 @@ This is the content of example environment.
 
 本模板借助于 \texttt{tikz} 定制了 \texttt{itemize} 和 \texttt{enumerate} 环境，其中 \texttt{itemize} 环境修改了 3 层嵌套，而 \texttt{enumerate} 环境修改了 4 层嵌套（仅改变颜色）。示例如下
 
-
-\begin{minipage}{0.5\textwidth}
-\begin{itemize}
-\tightlist
-\item
-  first item of nesti;
-\item
-  second item of nesti;
-
-  \begin{itemize}
-  \tightlist
-  \item
-    first item of nestii;
-  \item
-    second item of nestii;
-
-    \begin{itemize}
-    \tightlist
-    \item
-      first item of nestiii;
-    \item
-      second item of nestiii.
-    \end{itemize}
-  \end{itemize}
-\end{itemize}
-\end{minipage}
-\begin{minipage}{0.5\textwidth}
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  first item of nesti;
-\item
-  second item of nesti;
-
-  \begin{enumerate}
-  \def\labelenumii{\arabic{enumii}.}
-  \tightlist
-  \item
-    first item of nestii;
-  \item
-    second item of nestii;
-
-    \begin{enumerate}
-    \def\labelenumiii{\arabic{enumiii}.}
-    \tightlist
-    \item
-      first item of nestiii;
-    \item
-      second item of nestiii.
-    \end{enumerate}
-  \end{enumerate}
-\end{enumerate}
-\end{minipage}
-
-
 \hypertarget{ref}{%
 \section{参考文献}\label{ref}}
 
